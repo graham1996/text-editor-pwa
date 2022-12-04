@@ -3,8 +3,8 @@ const butInstall = document.getElementById('buttonInstall');
 // Logic for installing the PWA
 // TODO: Add an event handler to the `beforeinstallprompt` event
 window.addEventListener('beforeinstallprompt', (event) => {
-    // found logic here https://web.dev/codelab-make-installable/, is preventDefault necessary?
-    event.preventDefault();
+    // found install logic here https://web.dev/codelab-make-installable/, is preventDefault necessary?
+    // event.preventDefault();
     window.deferredPrompt = event;
     butInstall.classList.toggle('hidden', false);
 });
