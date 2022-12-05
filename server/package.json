@@ -1,13 +1,13 @@
 {
     "name": "JATE",
     "version": "1.0.0",
-    "description": "",
+    "description": "text editor",
     "main": "server.js",
     "scripts": {
         "server": "nodemon server.js --ignore client"
     },
     "keywords": [],
-    "author": "",
+    "author": "Graham Johnson",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1"
